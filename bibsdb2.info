@@ -1,0 +1,26 @@
+;----------// Theme Information
+	name = Bibsdb 2
+	description = Sub-theme for Biblioteket Sønderborg. This is a sub-theme of theme DDBasic version 2.
+	core = 7.x
+	base theme = ddbasic
+	
+;----------// Stylesheets
+  stylesheets[all][] = sass_css/components/node/bibsdb_event.css
+
+;----------// JavaScripts
+scripts[] = scripts/node/bibsdb_event.js
+
+
+;----------// Regions
+  regions[header]            = Header
+  regions[navigation]        = Navigation
+  regions[content_top]       = Content top
+  regions[content]           = Primary content
+  regions[secondary_content] = Secondary content
+  regions[tertiary_content]  = Tertiary content
+  regions[attachment_first]  = Attachment first
+  regions[attachment_second] = Attachment second
+  regions[attachment_third]  = Attachment third
+  regions[attachment_fourth] = Attachment fourth
+  regions[footer]            = Footer
+  regions[bottom]            = Bottom
