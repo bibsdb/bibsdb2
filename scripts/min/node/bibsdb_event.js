@@ -1,0 +1,1 @@
+!function($){"use strict";Drupal.behaviors.ding_event_translate_target_label_on_event_full={attach:function(e,t){$(".node-ding-event.node-full .field-name-field-ding-event-target .field-label:contains('Target')",e).text("Adgang")}}}(jQuery);

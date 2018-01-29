@@ -6,9 +6,12 @@
 	
 ;----------// Stylesheets
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
+  stylesheets[all][] = sass_css/components/panel/bibsdb_class-panel.css
+  stylesheets[all][] = sass_css/bibsdb/bibsdb_breadcrumb.css
 
 ;----------// JavaScripts
-scripts[] = scripts/node/bibsdb_event.js
+  scripts[] = scripts/bibsdb2.common.js
+  scripts[] = scripts/node/bibsdb_event.js
 
 
 ;----------// Regions

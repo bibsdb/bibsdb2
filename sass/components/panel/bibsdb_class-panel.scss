@@ -1,0 +1,16 @@
+//
+// General styling for all panels and class specific styling for panels
+
+// ==========================================================================
+// General
+// ==========================================================================
+
+//Insert space in event-menu below first menu item that has a next sibling that contains the word Aktiviteter
+.panel-pane {
+  // Sub menu
+  ul.sub-menu {
+    li.spacebelow {
+      margin-bottom: 40px;
+    }
+  }
+}

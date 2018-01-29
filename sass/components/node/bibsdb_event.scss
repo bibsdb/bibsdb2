@@ -3,13 +3,23 @@
 
 .node-ding-event {
 	// ==========================================================================
+  // Teaser
+  // ==========================================================================
+  &.node-teaser {
+  	// Hide price on event listings
+  	.price{
+			display:none;
+		}
+
+
+  }
+	// ==========================================================================
 	// Full
 	// ==========================================================================
-
-	// Hide location in event details. It is sufficient with library, because
-	// it print location if no library is selected.
-
 	&.node-full {
+
+		// Hide location in event details. It is sufficient with library, because
+		// it print location if no library is selected.
 		.field-name-field-ding-event-location{
 			display:none;
 		}

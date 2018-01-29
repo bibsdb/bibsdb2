@@ -1,0 +1,1 @@
+!function($){"use strict";Drupal.behaviors.ding_submenu_divide_at_word={attach:function(t,a){$(".sub-menu li",t).has("a:contains('Aktiviteter')").addClass("aktiviteter"),$(".sub-menu li",t).not(".aktiviteter").last().addClass("spacebelow")}}}(jQuery);

@@ -7,6 +7,5 @@
     	$( ".node-ding-event.node-full .field-name-field-ding-event-target .field-label:contains('Target')" , context).text("Adgang");   
     }
   };
-	
 
 })(jQuery);
