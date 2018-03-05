@@ -1,0 +1,21 @@
+// ==========================================================================
+// Specific styles for menu panes and taxonomy facet browser
+// ==========================================================================
+
+
+// Hide biblioteksafhentningssted in library list on event-list
+.pane-library-list .select-list ul.list-items {
+	li:nth-last-child(2), li:nth-last-child(1) {
+		display: none;
+	}
+}
+
+// Completely hide library list on news-list
+.page-nyheder .pane-library-list {
+	display:none;
+}
+
+// Completely hide library list on taxonomy-list
+.page-taxonomy .pane-library-list {
+	display:none;
+}

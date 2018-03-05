@@ -1,0 +1,100 @@
+//
+// Styling of content type Ding News
+
+@import '../../base.scss';
+
+.node-ding-news {
+	// ==========================================================================
+	// Teaser
+	// ==========================================================================
+	&.node-teaser {
+
+		.info-dash {
+			display: inline;
+		}
+
+		.submitted {
+			display: inline;
+
+		}
+	}
+
+	// ==========================================================================
+	// Full
+	// ==========================================================================
+	&.node-full {
+		.ding-news-left {
+			@include span-columns(4);
+
+			// Tablet
+			@include media($tablet) {
+				@include span-columns(6);
+			}
+
+			// Mobile
+			@include media($mobile) {
+				@include span-columns(12);
+				margin-bottom: 20px;
+			}
+		}
+		.ding-news-right {
+			@include span-columns(5);
+
+			// Tablet
+			@include media($tablet) {
+				@include span-columns(6);
+				margin-right: 0;
+			}
+
+			// Mobile
+			@include media($mobile) {
+				@include span-columns(12);
+				margin-right: 0;
+			}
+		}
+
+		// Factbox
+
+		.field-name-field-bibsdb-fact-box-title {
+			@include span-columns(3);
+			margin-right: 0;
+			padding: 10px 20px;
+			@include font('display');
+			background-color: $grey-medium;
+
+			// Tablet
+			@include media($tablet) {
+				@include span-columns(12);
+				margin-right: 0;
+				margin-top: 10px;
+			}
+
+			// Mobile
+			@include media($mobile) {
+				@include span-columns(12);
+				margin-right: 0;
+				margin-top: 10px;
+			}
+			
+		}
+
+		.field-name-field-bibsdb-fact-box-body {
+			@include span-columns(3);
+			margin-right: 0;
+			padding: 10px 20px;
+			background-color: $grey;
+
+			// Tablet
+			@include media($tablet) {
+				@include span-columns(12);
+				margin-right: 0;
+			}
+
+			// Mobile
+			@include media($mobile) {
+				@include span-columns(12);
+				margin-right: 0;
+			}
+		}
+	}
+}

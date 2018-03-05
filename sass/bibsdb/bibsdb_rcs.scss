@@ -1,0 +1,44 @@
+//
+// Styling of read circuit set lists
+
+@import '../base.scss';
+
+.rcs-list, .rcs-row {
+	clear: both;
+	width: 100%;
+	border-bottom: 1px solid $grey-medium;
+
+
+	.rcs-column {
+
+
+		@include span-columns(4);
+		// The last column needs no gutter
+		&.views-column-last {
+			margin-right: 0;
+		}
+
+		@include media($mobile) {
+			@include span-columns(6);
+			&.views-column-first + div {
+				margin-right: 0;
+			}
+			&.views-column-last {
+				@include span-columns(12);
+			}
+
+		}
+		padding: 20px 5px;
+
+
+		h3 {
+			margin-bottom: 5px;
+		}
+
+		img {
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}

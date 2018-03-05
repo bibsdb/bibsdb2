@@ -3,16 +3,30 @@
 
 .node-ding-event {
 	// ==========================================================================
-  // Teaser
-  // ==========================================================================
-  &.node-teaser {
-  	// Hide price on event listings
-  	.price{
+	// Teaser
+	// ==========================================================================
+	&.node-teaser {
+		// Hide price on event listings
+		.price{
 			display:none;
 		}
 
+		// Make comma-separated list of categories because we have more than one
+		.field-name-field-ding-event-category {
+			margin-bottom: 10px;
+			.field-items .field-item {
+				display: inline;
 
-  }
+				&:after {
+					content: ", ";
+				}
+
+				&:last-child:after {
+					content: "";
+				}
+			}
+		}
+	}
 	// ==========================================================================
 	// Full
 	// ==========================================================================

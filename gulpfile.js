@@ -117,7 +117,7 @@ gulp.task('kss', 'Process SCSS using KSS / kss-node',
 gulp.task('watch', 'Watch and process JS and SCSS files', ['uglify', 'sass'],
   function() {
     gulp.watch(jsPath, ['jshint', 'uglify']);
-    gulp.watch(sassPath, ['validate-sass', 'sass']);
+    gulp.watch(sassPath, ['sass']);
   }
 );
 
