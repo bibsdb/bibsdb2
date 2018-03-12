@@ -15,6 +15,7 @@
   stylesheets[all][] = sass_css/bibsdb/bibsdb_breadcrumb.css
   stylesheets[all][] = sass_css/bibsdb/bibsdb_rcs.css
   stylesheets[all][] = sass_css/bibsdb/bibsdb_menucard.css
+  stylesheets[all][] = sass_css/bibsdb/bibsdb_search_context.css
 
 ;----------// JavaScripts
   scripts[] = scripts/bibsdb2.common.js
