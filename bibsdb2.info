@@ -7,7 +7,6 @@
 ;----------// Stylesheets
   stylesheets[all][] = sass_css/components/bibsdb_header.css
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
-  stylesheets[all][] = sass_css/components/node/bibsdb_group.css
   stylesheets[all][] = sass_css/components/node/bibsdb_news.css
   stylesheets[all][] = sass_css/components/panel/bibsdb_class-panel.css
   stylesheets[all][] = sass_css/components/view/bibsdb_view.css
