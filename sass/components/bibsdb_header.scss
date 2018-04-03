@@ -1,5 +1,73 @@
 //
 // Styling of site header
+
+@import '../base.scss';
+
+.site-header {
+  // ==========================================================================
+  // Topbar
+  // ==========================================================================
+  .topbar {
+  	box-shadow: none;
+  	background: linear-gradient(to right, 
+			$mkh-blue1 148px, $mkh-blue4 148px, 
+			$mkh-blue4 296px, $mkh-blue5 296px, 
+			$mkh-blue5 444px, $mkh-blue2 444px,
+			$mkh-blue2 592px, $mkh-blue3 592px);
+
+  	background-size: 592px 100px;
+		background-repeat: repeat-x;
+		background-position: 39% 0;
+	}
+
+	.topbar-inner {
+		height: 74px;
+		.site-name-container {
+			height: 60px;
+		}
+	}
+}
+
+// ==========================================================================
+// Search Form
+// ==========================================================================
+
+// Make search box and ting_field_search align
 #search-block-form .form-item-ting-field-search {
 	margin-top: 0;
 }
+
+.search-form-extended.front .site-header .header-inner .pane-search-form, .search-form-extended.page-search .site-header .header-inner .pane-search-form {
+	box-shadow: none;
+}
+
+.search-form-extended .site-header .header-inner .pane-search-form {
+	box-shadow: none;
+	background: linear-gradient(to right, 
+		$mkh-blue1 148px, $mkh-blue4 148px, 
+		$mkh-blue4 296px, $mkh-blue5 296px, 
+		$mkh-blue5 444px, $mkh-blue2 444px,
+		$mkh-blue2 592px, $mkh-blue3 592px);
+	background-size: 592px 100px;
+	background-repeat: repeat-x;
+	background-position: 39% 0;
+}
+
+.site-header .header-inner .pane-search-form .form-actions input[type=submit] {
+	border-radius: 0;
+}
+
+.site-header .header-inner .pane-search-form .form-item-search-block-form input[type=text] {
+	border-radius: 0;
+}
+
+
+// ==========================================================================
+// Navigation
+// ==========================================================================
+.site-header>.navigation-wrapper {
+	box-shadow: none;
+	background-color: $mkh-blue;
+}
+
+

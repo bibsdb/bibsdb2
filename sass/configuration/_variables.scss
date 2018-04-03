@@ -31,13 +31,25 @@ $red-text: $red;
 $yellow: #ffca5f;
 $yellow-text: darken($yellow, 15);
 
+$mkh-blue: #0e2334;
+$mkh-blue1: #124e73;
+$mkh-blue2: #18334e;
+$mkh-blue3: #1a3955;
+$mkh-blue4: #18415f;
+$mkh-blue5: #14486f;
+$mkh-blue6: #0f547d;
+
+$mkh-contrast1: #2ab67f;
+$mkh-contrast2: #db6a5b;
+
 // The color-module is dependent on the following five variables and their specific values. Therefore they may not be altered.
 
-$color-primary: #4d898e;
-$color-secondary: #f66d70;
+$color-primary: $mkh-contrast1;
+$color-secondary: $mkh-contrast2;
 
 $color-text: #262627;
-$color-text-link: #4d898f;
+$color-text-link: darken($mkh-contrast1, 5%);
+$color-text-link-on-dark: $mkh-contrast1;
 $color-text-on-primary: #fffff1;
 $color-text-on-secondary: #fffff2;
 
@@ -59,8 +71,8 @@ $dynamic-background-width: 1250px;
 // ==========================================================================
 // Misc
 // ==========================================================================
-$round-corner: 5px;
-$box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+$round-corner: 0px;
+$box-shadow: none;
 $box-padding: 15px;
 $disabled: 0.3;
 

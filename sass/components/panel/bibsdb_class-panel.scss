@@ -1,6 +1,8 @@
 //
 // General styling for all panels and class specific styling for panels
 
+@import '../../base.scss';
+
 // ==========================================================================
 // General
 // ==========================================================================
@@ -13,4 +15,14 @@
       margin-bottom: 40px;
     }
   }
+}
+
+
+// Make Logged in user text white
+
+.panel-pane.pane-current-user-name h2 {
+	color: $white;
+}
+.panel-pane.pane-current-user-name .pane-content {
+	color: $white;
 }

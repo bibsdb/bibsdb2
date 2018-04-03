@@ -1,0 +1,42 @@
+//
+// Styling of elements difened by a class that are formattet the same way,
+// no matter what context they appear in.
+
+@import '../base.scss';
+
+.button {
+  @extend %button;
+}
+
+// Topbar opening hours
+a.topbar-link-opening-hours {
+  @include button(clock, $charcoal-opacity-dark, $white, $white, $color-primary);
+  &::after {
+    color: $color-text-link;
+  }
+}
+
+// Topbar link user account
+a.topbar-link-user-account {
+  @include button(arrow-down, $charcoal-opacity-dark, $white, $white, $color-primary);
+  @extend .button;
+  padding-right: 14px;
+  background-color: $white;
+  &.active {
+    @extend .button:hover;
+  }
+}
+
+a.search-extended-button {
+  background-color: $color-text-link;
+  border-radius: 0;
+}
+
+a.topbar-link-user {
+  border-radius: 0;
+}
+
+a.topbar-link-signout {
+  border-radius: 0;
+}
+

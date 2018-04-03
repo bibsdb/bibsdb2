@@ -5,12 +5,17 @@
 	base theme = ddbasic
 	
 ;----------// Stylesheets
+  stylesheets[all][] = sass_css/base/bibsdb_standard.css
   stylesheets[all][] = sass_css/components/bibsdb_header.css
+  stylesheets[all][] = sass_css/components/bibsdb_class.css
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
   stylesheets[all][] = sass_css/components/node/bibsdb_news.css
+  stylesheets[all][] = sass_css/components/node/bibsdb_node.css
   stylesheets[all][] = sass_css/components/panel/bibsdb_class-panel.css
   stylesheets[all][] = sass_css/components/view/bibsdb_view.css
   stylesheets[all][] = sass_css/components/panel/bibsdb_pane-menu.css
+  stylesheets[all][] = sass_css/components/ting-object/bibsdb_ting-object.css
+
   stylesheets[all][] = sass_css/bibsdb/bibsdb_breadcrumb.css
   stylesheets[all][] = sass_css/bibsdb/bibsdb_rcs.css
   stylesheets[all][] = sass_css/bibsdb/bibsdb_menucard.css

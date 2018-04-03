@@ -1,0 +1,19 @@
+//
+// Styling of Ting object
+
+@import '../../base.scss';
+
+// ==========================================================================
+// Teaser
+// ==========================================================================
+
+.ting-object.view-mode-teaser>.inner .field-name-ting-author {
+  color: $color-text-link-on-dark;
+    
+  a:hover {
+    color: $color-text-link-on-dark;
+  }
+
+}
+
+ 
