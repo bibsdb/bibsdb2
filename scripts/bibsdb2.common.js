@@ -10,5 +10,14 @@
     }
   };
 
+  // Hide Internal problem warning message
+  Drupal.behaviors.hide_internal_problem = {
+    attach: function(context, settings) {
+      $(".warning:contains('Internal problem')").hide();
+    }
+  };
+
+
+
 
 })(jQuery);
