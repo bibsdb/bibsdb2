@@ -8,6 +8,7 @@
   stylesheets[all][] = sass_css/base/bibsdb_standard.css
   stylesheets[all][] = sass_css/components/bibsdb_header.css
   stylesheets[all][] = sass_css/components/bibsdb_class.css
+  stylesheets[all][] = sass_css/components/bibsdb_menu.css
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
   stylesheets[all][] = sass_css/components/node/bibsdb_news.css
   stylesheets[all][] = sass_css/components/node/bibsdb_node.css

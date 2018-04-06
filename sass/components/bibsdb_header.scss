@@ -25,6 +25,12 @@
 		.site-name-container {
 			height: 60px;
 		}
+		.logo {
+			@include media($tablet) {
+				background-color: transparent;
+				height: 74px;
+			}
+		}
 	}
 }
 
@@ -71,3 +77,8 @@
 }
 
 
+.site-header .topbar-inner .topbar-menu {
+	@include media($tablet) {
+		background-color: $mkh-blue;
+	}
+}
