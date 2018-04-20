@@ -12,6 +12,7 @@
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
   stylesheets[all][] = sass_css/components/node/bibsdb_news.css
   stylesheets[all][] = sass_css/components/node/bibsdb_node.css
+  stylesheets[all][] = sass_css/components/node/bibsdb_new_materials.css
   stylesheets[all][] = sass_css/components/panel/bibsdb_class-panel.css
   stylesheets[all][] = sass_css/components/view/bibsdb_view.css
   stylesheets[all][] = sass_css/components/panel/bibsdb_pane-menu.css
