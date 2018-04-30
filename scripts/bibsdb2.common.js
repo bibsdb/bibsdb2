@@ -17,6 +17,12 @@
     }
   };
 
+  // Hide panels-in Place menu from frontpage
+  $(document).ready(function(){
+    $('.panels-ipe-button-container').css("display","none");
+    $('.panels-ipe-control-container').css("display","none");
+  });
+
 
 
 
