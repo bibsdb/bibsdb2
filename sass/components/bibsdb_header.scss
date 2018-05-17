@@ -24,6 +24,16 @@
 		height: 74px;
 		.site-name-container {
 			height: 60px;
+			// Display logo on mobile devices
+			@include media($mobile) {
+				&.logo-container img {
+					display: block;
+				}
+				&.logo-container .site-name {
+					display: none;
+				}
+
+			}
 		}
 		.logo {
 			@include media($tablet) {
