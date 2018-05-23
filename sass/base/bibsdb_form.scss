@@ -1,0 +1,20 @@
+//
+// Styling of form elements.
+// Styling in this file should not be context-sensitive.
+
+@import '../base.scss';
+
+// Form
+// Make form elements have no border-radius
+
+input[type=email], input[type=password], input[type=text], input[type=submit] {
+	border-radius: 0;
+}
+
+.user-login-form .submit-button-with-icon .color-and-icon {
+	border-radius: 0;
+}
+
+.user-login-form .ding-gatewayf--login-block a {
+	border-radius: 0;
+}

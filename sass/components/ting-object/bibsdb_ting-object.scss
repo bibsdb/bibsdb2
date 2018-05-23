@@ -16,4 +16,13 @@
 
 }
 
+// Change color on links in search result
+
+.ting-object.list-item-style .field-name-ting-title h2 a {
+	color: $color-text-link;
+}
+
+.ting-object.list-item-style .search-result--availability p a {
+	color: $color-text-link;
+}
  

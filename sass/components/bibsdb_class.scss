@@ -48,3 +48,42 @@ a.topbar-link-menu {
   border-radius: 0;
 }
 
+// Change background color on loan count bubble
+.menu-item-count {
+  background-color: $color-primary;
+
+  &.menu-item-count-warning {
+    background-color: $red;
+  }
+}
+
+// Remove rounded corners on read more buttons
+.more-link a {
+  border-radius: 0;
+}
+
+// Remove rounded corners on slick slider buttons
+.slick-slider .slick-arrow {
+  &.slick-next::after {
+    border-radius: 0;
+  }
+  &.slick-prev::after {
+    border-radius: 0;
+  }
+}
+
+// Remove rounded corners on slick slider buttons
+.ding-carousel .slick-slider .slick-arrow {
+  &.slick-next::after {
+    border-radius: 0;
+  }
+  &.slick-prev::after {
+    border-radius: 0;
+  }
+}
+
+// Change color og search spinner
+.search-overlay--wrapper .search-overlay--inner {
+  background-color: $color-primary;
+}
+

@@ -1,0 +1,13 @@
+//
+// Styling of p2 elements difened by a class that are formattet the same way,
+// no matter what context they appear in.
+
+@import '../base.scss';
+
+
+// Change color of notification bubble
+
+.topbar-link-user-account .notification-count {
+	background-color: $color-primary;
+
+}
