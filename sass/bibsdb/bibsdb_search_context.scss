@@ -1,8 +1,0 @@
-//
-// Styling of ting_search_context that needs to override theme styling. DDBasic styling overrides module-styling.
-
-// On large screens float left "Add to searches to lists I follow"
-// to make room for carousel buttons on the right
-.pane-search-query .ding-list-add-button .buttons li a {
-    float: left;
-}
