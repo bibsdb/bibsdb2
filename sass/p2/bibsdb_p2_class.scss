@@ -7,7 +7,61 @@
 
 // Change color of notification bubble
 
-.topbar-link-user-account .notification-count {
-	background-color: $color-primary;
+// ==========================================================================
+// Notifications
+// ==========================================================================
 
+.topbar-link-user-account {
+  .topbar-link-user-account {
+    position: relative;
+  }
+  .notification-count {
+    @include transition(
+      color $speed $ease,
+      background-color $speed $ease
+    );
+    @include transform(translateY(-14px));
+    position: absolute;
+    right: 56px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 33px;
+    color: $color-text-on-primary;
+    background-color: $color-primary;
+
+    @include media($mobile) {
+      @include transform(translateY(0));
+      position: static;
+      float: right;
+      width: auto;
+      height: auto;
+      padding-right: 46px;
+      line-height: 20px;
+      background-color: transparent;
+      color: $color-primary;
+    }
+  }
+  
+  .no-touch & {
+    &:hover {
+      .notification-count {
+        color: $color-standard-text;
+        background-color: $white;
+      }
+    }
+  }
+  
+  @include media($mobile) {
+    .no-touch & {
+      &:hover {
+        .notification-count {
+          color: $color-text-on-primary;
+          background-color: transparent;
+        }
+      }
+    }
+  }
 }
