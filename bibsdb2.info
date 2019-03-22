@@ -20,11 +20,12 @@
   stylesheets[all][] = sass_css/components/panel/bibsdb_pane-menu.css
   stylesheets[all][] = sass_css/components/ting-object/bibsdb_ting-object.css
   stylesheets[all][] = sass_css/p2/bibsdb_p2_class.css
+  stylesheets[all][] = sass_css/ding_nodelist/bibsdb_nodelist.css
 
-  stylesheets[all][] = sass_css/bibsdb/bibsdb_breadcrumb.css
+
   stylesheets[all][] = sass_css/bibsdb/bibsdb_rcs.css
   stylesheets[all][] = sass_css/bibsdb/bibsdb_menucard.css
-  stylesheets[all][] = sass_css/bibsdb/bibsdb_search_context.css
+
 
 ;----------// JavaScripts
   scripts[] = scripts/bibsdb2.common.js

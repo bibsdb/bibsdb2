@@ -9,11 +9,7 @@
   // ==========================================================================
   .topbar {
   	box-shadow: none;
-  	background: linear-gradient(to right, 
-			$mkh-blue1 148px, $mkh-blue4 148px, 
-			$mkh-blue4 296px, $mkh-blue5 296px, 
-			$mkh-blue5 444px, $mkh-blue2 444px,
-			$mkh-blue2 592px, $mkh-blue3 592px);
+  	background-color: $mkh-blue;
 
   	background-size: 592px 100px;
 		background-repeat: repeat-x;
@@ -60,11 +56,11 @@
 .search-form-extended .site-header .header-inner .pane-search-form {
 	box-shadow: none;
 	background: linear-gradient(to right, 
-		$mkh-blue1 148px, $mkh-blue4 148px, 
-		$mkh-blue4 296px, $mkh-blue5 296px, 
-		$mkh-blue5 444px, $mkh-blue2 444px,
-		$mkh-blue2 592px, $mkh-blue3 592px);
-	background-size: 592px 100px;
+		$mkh-blue1 84px, $mkh-blue4 84px, 
+		$mkh-blue4 168px, $mkh-blue5 168px, 
+		$mkh-blue5 252px, $mkh-blue2 252px,
+		$mkh-blue2 336px, $mkh-blue3 336px);
+	background-size: 336px 100px;
 	background-repeat: repeat-x;
 	background-position: 39% 0;
 }

@@ -10,3 +10,7 @@ ul.topbar-menu li.topbar-link-search a {
 ul.main-menu-third-level li a {
 	color: $color-primary;
 }
+
+.main-menu-wrapper>ul.main-menu>li {
+	padding: 40px 0 20px 0;
+}
