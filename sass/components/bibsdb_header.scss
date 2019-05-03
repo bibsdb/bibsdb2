@@ -18,6 +18,9 @@
 
 	.topbar-inner {
 		height: 74px;
+		.topbar-menu {
+			box-shadow: none;
+		}
 		.site-name-container {
 			height: 60px;
 			// Display logo on mobile devices
@@ -35,6 +38,7 @@
 			@include media($tablet) {
 				background-color: transparent;
 				height: 74px;
+				box-shadow: none;
 			}
 		}
 	}

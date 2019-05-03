@@ -1,25 +1,47 @@
 // Bibsdb modifications to nodelists
 //==========================================================================
 
-.ding_nodelist-promoted_nodes .first-left-block .news-info {
-	padding-bottom: 10px;
-  padding-left: 20px;
-  height: auto;
+.ding_nodelist-promoted_nodes {
+	.first-left-block, .last-right-block {
+		.news-info {
+			padding-bottom: 10px;
+  		padding-left: 20px;
+  		height: auto;
 
+			h3 {
+				font-size: 200%;
+			}
 
-	h3 {
-		font-size: 200%;
-	}
-
-	a.label {
-    color: white;
+			a.label {
+		    color: white;
+		  }
+		}
   }
+  
 }
 
 .ding_nodelist-promoted_nodes {
 	.first-right-block, .last-left-block {
 		.ding_nodelist-pn-item .item-body {
 			padding: 20px 20px;
+		}
+	}
+}
+
+.ding_nodelist-node_blocks {
+	// Make comma-separated list of categories because we have more than one
+	.field-name-field-ding-event-category {
+		margin-bottom: 10px;
+		.field-items .field-item {
+			display: inline;
+
+			&:after {
+				content: ", ";
+			}
+
+			&:last-child:after {
+				content: "";
+			}
 		}
 	}
 }
