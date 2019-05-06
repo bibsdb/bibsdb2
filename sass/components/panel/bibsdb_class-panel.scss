@@ -26,3 +26,10 @@
 .panel-pane.pane-current-user-name .pane-content {
 	color: $white;
 }
+
+
+// Hide library selection list on news section
+
+.pane-views-exp-ding-news-ding-news-list .views-widget-filter-og_group_ref_target_id_entityreference_filter {
+	display: none;
+}

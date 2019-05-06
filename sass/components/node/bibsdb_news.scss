@@ -52,49 +52,5 @@
 				margin-right: 0;
 			}
 		}
-
-		// Factbox
-
-		.field-name-field-bibsdb-fact-box-title {
-			@include span-columns(3);
-			margin-right: 0;
-			padding: 10px 20px;
-			@include font('display');
-			background-color: $grey-medium;
-
-			// Tablet
-			@include media($tablet) {
-				@include span-columns(12);
-				margin-right: 0;
-				margin-top: 10px;
-			}
-
-			// Mobile
-			@include media($mobile) {
-				@include span-columns(12);
-				margin-right: 0;
-				margin-top: 10px;
-			}
-			
-		}
-
-		.field-name-field-bibsdb-fact-box-body {
-			@include span-columns(3);
-			margin-right: 0;
-			padding: 10px 20px;
-			background-color: $grey;
-
-			// Tablet
-			@include media($tablet) {
-				@include span-columns(12);
-				margin-right: 0;
-			}
-
-			// Mobile
-			@include media($mobile) {
-				@include span-columns(12);
-				margin-right: 0;
-			}
-		}
 	}
 }
