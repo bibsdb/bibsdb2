@@ -5,3 +5,8 @@
 .view-ding-event .more-link {
 	margin-top: 40px;
 }
+
+// Hide eresource availability dropdown
+.views-widget-filter-field_ding_eresource_access_tid {
+	display: none;
+}
