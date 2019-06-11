@@ -39,5 +39,31 @@
 		.field-name-field-ding-event-location{
 			display:none;
 		}
+
+		// Colors on place2book buttons
+		> .inner {
+			> .left {
+				.button {
+					&.ticket-available {
+            background-color: $color-primary;
+            a {
+            	color: $color-text-on-primary;
+            }
+
+            &:hover {
+              background-color: $green-text;
+              a {
+              	color: $color-text-on-primary;
+              }
+            }
+          }
+
+          &:hover {
+            background-color: $grey-medium;
+            color: $color-text-on-primary;
+          }
+				}
+			}
+		}
 	}
 }

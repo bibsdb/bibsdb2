@@ -18,19 +18,4 @@
     }
   };
 
-   // Nodelist - Node blocks. Hide field-type-text-long when the page is initially loaded.
-  Drupal.behaviors.nodelist_node_blocks_hide_teaser = {
-    attach: function(context, settings) {
-      $('.field-type-text-long').toggleClass('element-hidden', true);
-    }
-  };
-
-  // Nodelist - Node blocks. Hide field-type-text-long when the page is initially loaded.
-  Drupal.behaviors.nodelist_node_blocks_hide_teaser = {
-    attach: function(context, settings) {
-      $('.field-type-text-long').toggleClass('element-hidden', true);
-    }
-  };
-
-
 })(jQuery);

@@ -6,15 +6,6 @@
 
 .button {
   @extend %button;
-  background-color: $color-secondary;
-  color: $color-text-on-secondary;
-  // Hover for non touch devices
-  .no-touch & {
-    &:hover {
-      background-color: darken($color-secondary, 20%);
-      color: $color-text-on-secondary;
-    }
-  }
 }
 
 // Topbar opening hours

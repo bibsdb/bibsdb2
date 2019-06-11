@@ -1,12 +1,8 @@
 // Bibsdb modifications to nodelists
 //==========================================================================
 
-@import '../base.scss';
-
 .ding_nodelist-promoted_nodes {
 	.first-left-block, .last-right-block {
-
-		//News
 		.news-info {
 			padding-bottom: 10px;
   		padding-left: 20px;
@@ -20,23 +16,8 @@
 		    color: white;
 		  }
 		}
+  }
   
-
-	  //Pages
-	  .page-info {
-			padding-bottom: 25px;
-  		padding-left: 20px;
-  		height: auto;
-
-			h3 {
-				font-size: 200%;
-			}
-
-			a.label {
-		    color: white;
-		  }
-		}
-	}
 }
 
 .ding_nodelist-promoted_nodes {
@@ -63,35 +44,4 @@
 			}
 		}
 	}
-
-	.nb-item.has-image .text {
-		padding-top: 200px;
-	}
-
-
-	// Make padding a bit smaller
-	.nb-item .text .title-and-lead {
-		min-height: 10px;
-	}
-
-
-	// Make button thinner and closer to the edge to avoid overlapping text
-	.nb-item .background {
-		height: 110%;
-		background: linear-gradient(to bottom, $grey 90%, transparent 10%);
-
-		.button {
-			right: 10px;
-	    bottom: 10px;
-	    padding: 10px 15px 10px 15px;
-		}
-	}
-
-	.nb-item.is-hovered {
-		.background {
-			background: none $grey;
-		}
-	}
-
-
 }
