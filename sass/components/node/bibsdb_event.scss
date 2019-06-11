@@ -13,8 +13,16 @@
 			display:none;
 		}
 
+		.info-bottom {
+			padding-right: 0px;
+		}
+
+		.title-and-lead {
+			min-height: 30px;
+		}
+
 		// Make comma-separated list of categories because we have more than one
-		.field-name-field-ding-event-category {
+		.field-name-field-ding-event-category, .field-name-og-group-ref {
 			margin-bottom: 10px;
 			.field-items .field-item {
 				display: inline;
