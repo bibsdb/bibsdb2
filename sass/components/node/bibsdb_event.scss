@@ -42,12 +42,6 @@
 	// ==========================================================================
 	&.node-full {
 
-		// Hide location in event details. It is sufficient with library, because
-		// it print location if no library is selected.
-		.field-name-field-ding-event-location{
-			display:none;
-		}
-
 		// Colors on place2book buttons
 		> .inner {
 			> .left {
