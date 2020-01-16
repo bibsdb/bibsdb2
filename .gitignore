@@ -1,4 +1,5 @@
 # ignore these directories
 .sass-cache
 node_modules
+package-lock.json
 sass_css_verbose_output
