@@ -21,7 +21,7 @@
   stylesheets[all][] = sass_css/components/ting-object/bibsdb_ting-object.css
   stylesheets[all][] = sass_css/components/form/bibsdb_form-class.css
   stylesheets[all][] = sass_css/p2/bibsdb_p2_class.css
-  stylesheets[all][] = sass_css/ding_nodelist/bibsdb_nodelist.css
+
 
 
   stylesheets[all][] = sass_css/bibsdb/bibsdb_rcs.css
