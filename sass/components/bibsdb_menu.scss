@@ -3,38 +3,5 @@
 
 @import '../base.scss';
 
-ul.topbar-menu li.topbar-link-search a {
-	background-color: $color-text-link;
-}
 
-
-
-.main-menu-wrapper>ul.main-menu>li {
-	padding: 40px 0 20px 0;
-}
-@include media($tablet) {
-	.main-menu-wrapper>ul.main-menu>li {
-		padding: 0;
-	}
-}
-
-// Increase margin above topbar buttons on large screens
-ul.topbar-menu li {
-	&.topbar-link-opening-hours a, &.topbar-link-signout a, &.topbar-link-user-account a, &.topbar-link-user a {
-		margin: 10px 0;
-	}
-}
-
-@include media($tablet) {
-	ul.topbar-menu li {
-		&.topbar-link-opening-hours a, &.topbar-link-signout a, &.topbar-link-user-account a, &.topbar-link-user a {
-			margin: 5px 0;
-		}
-	}
-}
-
-// Move drop-down from Loan status button further down
-.header-wrapper .navigation-inner ul.main-menu-third-level {
-	top: 77px;
-}
 
