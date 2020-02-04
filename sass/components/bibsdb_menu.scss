@@ -19,6 +19,21 @@ ul.main-menu-third-level li a {
 		padding: 0;
 	}
 }
+// Increase margin above topbar buttons on large screens
+ul.topbar-menu li {
+	&.topbar-link-opening-hours a, &.topbar-link-signout a, &.topbar-link-user-account a, &.topbar-link-user a {
+		margin: 10px 0;
+	}
+}
+
+@include media($tablet) {
+	ul.topbar-menu li {
+		&.topbar-link-opening-hours a, &.topbar-link-signout a, &.topbar-link-user-account a, &.topbar-link-user a {
+			margin: 5px 0;
+		}
+	}
+}
+
 
 
 
