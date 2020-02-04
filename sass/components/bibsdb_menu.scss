@@ -14,6 +14,11 @@ ul.main-menu-third-level li a {
 .main-menu-wrapper>ul.main-menu>li {
 	padding: 40px 0 20px 0;
 }
+@include media($tablet) {
+	.main-menu-wrapper>ul.main-menu>li {
+		padding: 0;
+	}
+}
 
 // Increase margin above topbar buttons on large screens
 ul.topbar-menu li {
