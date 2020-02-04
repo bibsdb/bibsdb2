@@ -30,7 +30,6 @@
 
 ;----------// JavaScripts
   scripts[] = scripts/bibsdb2.common.js
-  scripts[] = scripts/node/bibsdb_event.js
 
 
 ;----------// Regions
