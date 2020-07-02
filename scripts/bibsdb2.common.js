@@ -23,4 +23,17 @@
     }
   };
 
+  // Hide 00:00 - 00:00 i opening hours on homepage. They still show in app.
+  Drupal.behaviors.opening_hours_table_hide_zeroes = {
+    attach: function(context, settings) {
+      $('.opening-hours-table td div:contains(00:00 - 00:00)').each(
+        function() {
+          var container = $(this);
+          var span = container.find('span').detach();
+          container.empty().append(span);   
+        }
+      ); 
+    }
+  };
+
 })(jQuery);
