@@ -1,0 +1,40 @@
+ /**
+ * Sections
+ * *
+ * @author agms.
+ */
+
+ @import '../base.scss';
+
+/* Sections
+========================================================================== */
+
+/* Custom styling of Nodes in Blocks. */
+/* Classes used are set in template.php */
+
+// Hide date on sections - where class hidedate is set. 
+.bibsdb.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text .date {
+  display: none;
+}
+
+// When date is hidden text can go higher.
+.bibsdb.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text {
+  top: -15px;
+}
+
+// Fix styling on hover to prevent text overlapping button 
+.bibsdb .ding_nodelist-node_blocks .nb-item:hover {
+  .field-name-field-ding-page-lead,
+  .field-name-field-ding-eresource-lead,
+  .field-name-field-ding-news-lead {
+    width: 80%
+  }
+}
+
+.bibsdb .ding_nodelist-node_blocks .nb-item .background .button {
+    width: 120px;
+    padding: 15px 10px 10px 10px;
+  
+}
+  //padding-top: 200px;
+
