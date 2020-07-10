@@ -13,28 +13,73 @@
 /* Classes used are set in template.php */
 
 // Hide date on sections - where class hidedate is set. 
-.bibsdb.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text .date {
+.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text .date {
   display: none;
 }
 
 // When date is hidden text can go higher.
-.bibsdb.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text {
+.bibsdb-hidedate .ding_nodelist-node_blocks .nb-item .text {
   top: -15px;
 }
 
 // Fix styling on hover to prevent text overlapping button 
-.bibsdb .ding_nodelist-node_blocks .nb-item:hover {
+.ding_nodelist-node_blocks .nb-item {
   .field-name-field-ding-page-lead,
   .field-name-field-ding-eresource-lead,
   .field-name-field-ding-news-lead {
-    width: 80%
+    width: 80%;
   }
 }
 
-.bibsdb .ding_nodelist-node_blocks .nb-item .background .button {
-    width: 120px;
-    padding: 15px 10px 10px 10px;
-  
+// Make button smaller
+.ding_nodelist-node_blocks .nb-item .background .button {
+  width: 120px;
+  padding: 15px 10px 10px 10px;
 }
-  //padding-top: 200px;
+
+// Inline event libraries when there are many
+.ding_nodelist-node_blocks .nb-item .library .field-item {
+  width: 80%;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  display: inline;
+
+  &:after {
+    content: ", ";
+  }
+
+  &:last-child:after {
+    content: "";
+  }
+}
+
+// Adjust text
+.ding_nodelist-node_blocks .nb-item .text .info-bottom {
+  padding-right: 0;
+}
+
+// Price looks stupid here
+.ding_nodelist-node_blocks .nb-item .text .info-bottom .price {
+  display: none;
+}
+
+// Animate in fild-type-text-long on large screens
+.ding_nodelist-node_blocks .nb-item .field-type-text-long {
+  opacity: 0;
+}
+
+.ding_nodelist-node_blocks .nb-item:hover .field-type-text-long {
+  animation: reveal .2s forwards .5s;
+}
+
+@keyframes reveal {
+  100% {
+    opacity: 1
+  }
+}
+
+
+
+
 

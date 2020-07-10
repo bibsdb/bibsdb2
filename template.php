@@ -52,7 +52,6 @@ function bibsdb2_preprocess_html(&$vars) {
     $css = (isset($term->field_ding_sections_custom_css) && !empty($term->field_ding_sections_custom_css)) ? $term->field_ding_sections_custom_css[LANGUAGE_NONE][0]['value'] : FALSE;
   }
 
-  $vars['classes_array'][] = 'bibsdb';
   $css_arr = explode(" ", $css);
   foreach ($css_arr as $item) {
     if (strlen($item) > 0) {
