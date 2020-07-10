@@ -9,7 +9,10 @@
 /* Sections
 ========================================================================== */
 
-/* Custom styling of Nodes in Blocks. */
+
+/* Custom styling of Nodes in Blocks.
+========================================================================== */
+
 /* Classes used are set in template.php */
 
 // Hide date on sections - where class hidedate is set. 
@@ -80,6 +83,36 @@
 }
 
 
+/* Custom styling of Promoted Nodes.
+========================================================================== */
+
+.ding_nodelist-promoted_nodes {
+  .first-left-block, .last-right-block {
+    .ding_nodelist-pn-item 
+    .page-info {
+      padding-top: 60px;
+      padding-left: 30px;
+
+      h3 {
+        font-size: 160%;
+      }
+    }
+  }
+}
+
+@include media($tablet) {
+  .ding_nodelist-promoted_nodes {
+    .ding_nodelist-pn-item 
+    .page-info {
+      padding-top: 60px;
+      padding-left: 30px;
+
+      h3 {
+        font-size: 160%;
+      }
+    }
+  }
+}
 
 
 
