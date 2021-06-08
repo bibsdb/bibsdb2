@@ -1,0 +1,27 @@
+ /**
+ * webform
+ * *
+ * @author agms.
+ */
+
+ @import '../../base.scss';
+
+
+.webform-component-date .webform-calendar {
+	left: 130px;
+}
+
+.webform-client-form .webform-component.webform-component-display {
+	margin-bottom: 0;
+	p {
+		margin-bottom: 20px;
+	}
+}
+
+.webform-client-form .webform-component.webform-component-checkboxes {
+	margin-bottom: 0;	
+}
+
+.webform-client-form .webform-component-fieldset {
+	@include span-columns(12);
+}

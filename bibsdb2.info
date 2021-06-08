@@ -13,6 +13,7 @@
   stylesheets[all][] = sass_css/components/bibsdb_menu.css
   stylesheets[all][] = sass_css/components/node/bibsdb_event.css
   stylesheets[all][] = sass_css/components/node/bibsdb_news.css
+  stylesheets[all][] = sass_css/components/node/bibsdb_webform.css
   stylesheets[all][] = sass_css/components/node/bibsdb_node.css
   stylesheets[all][] = sass_css/components/node/bibsdb_new_materials.css
   stylesheets[all][] = sass_css/components/node/bibsdb_ding-eresource.css
@@ -23,12 +24,8 @@
   stylesheets[all][] = sass_css/components/form/bibsdb_form-class.css
   stylesheets[all][] = sass_css/p2/bibsdb_p2_class.css
   stylesheets[all][] = sass_css/ding_nodelist/bibsdb_nodelist.css
-  
-
-
 
   stylesheets[all][] = sass_css/bibsdb/bibsdb_rcs.css
-  stylesheets[all][] = sass_css/bibsdb/bibsdb_menucard.css
 
 
 ;----------// JavaScripts
